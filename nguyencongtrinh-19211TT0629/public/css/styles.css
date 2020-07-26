@@ -1,0 +1,433 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header .top-header{
+    padding-left: 30px;
+    padding-right: 30px;
+    background: url("../images/plants_01_x1024.jpg");
+    background-size: cover;  
+}
+header .top-header .nav-item .nav-link{
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000;
+}
+.top-search{
+    color: #bfc2ca;
+    font-weight: 0.5px;
+    
+}
+.top-search-f:focus{
+    outline: none;
+}
+.form-inline input:hover{
+    outline: none;
+}
+.form-inline input{
+    outline: none;
+}
+.search-formd{
+    background: #fff;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.search-formd:hover{
+    outline: thin solid #00ab81;
+}
+.search-formd input{
+    border: transparent;
+   
+}
+.search-formd input:hover{
+    border: transparent;
+   
+    
+}
+.form-inline input:focus{
+    outline: none;
+}
+.nav-btn{
+    color: #00ab81;
+    background: transparent;
+    border: transparent;
+
+}
+header .top-header .nav-item .nav-link:hover{
+    font-size: 1.2rem;
+    color: #00ab81;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+}
+header .top-brand{    
+    padding: 250px 0;
+    /*   */
+}
+header .top-brand .top-brand-cnt{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+header .top-brand .top-brand-cnt h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.top-brand-btn .shop-btn{
+    color: rgb(0, 171, 132);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    border: transparent;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 8px 15px;
+    background: #fff;
+    font-weight: bold;
+}
+.top-brand-btn .shop-btn:hover{
+    color: rgb(0, 171, 132);
+}
+.top-brand .top-brand-btn button:hover {
+    /* text-decoration: ; */
+    color: #fff;
+    background: #00ab81;
+}
+.bd{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+}
+.bd-p1{
+    margin-top: 50px;
+}
+.item{
+   padding: 0 50px;
+}
+.item img{
+   height: 90%;
+   width: 90%;
+ }
+.item .pd-name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.item .pd-name:hover{
+    color: #00ab81;
+}
+.item .pd-btn a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    color: #00ab81;
+    font-weight: bold;
+
+}
+.item .pd-btn a:hover{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    color: #000;
+    text-decoration: none;
+
+}
+.bd-p1{
+    margin-top: 50px;
+}
+.item{
+   padding: 0 30px;
+   width: 100%;
+   height: auto;
+}
+.item .pd-img img{
+    padding-bottom: 30px;
+}
+.item .pd-img img:hover{
+    transform: scale3d(1.1,1.1,1);
+    transition: transform 1s;
+    overflow: hidden;
+}
+.pd-img{
+    /* overflow: hidden; */
+      
+}
+.pd-img:hover{
+    color: #00ab81;
+}
+.item img{
+   height: 90%;
+   width: 90%;
+   transition: all .3s;
+   
+ }
+.item .pd-name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.item .pd-name:hover{
+    color: #00ab81;
+}
+.pd-btn{
+    color: #00ab81;
+}
+.pd-btn:hover{
+    color: #191919;
+}
+.bd-p1{
+    padding: auto 30px;
+}
+.bd-p2{
+    margin-top: 80px;
+}
+.item1{
+    padding-left: 30px;
+   
+}
+.item1 h1{
+    font-weight: 600;
+   
+}
+.item2 img{
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    
+}
+.shopnow-btn button{
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: transparent;
+    background: #00ab84;
+    color: white;
+}
+.shopnow-btn button:hover{
+    background: rgb(2, 126, 98);
+}
+.bd-p3{
+    margin-top: 50px;
+}
+.bd-p4{
+    margin-top: 80px;
+    height: 450px;
+    width: 100%;
+    background: url('../images/backgound.png');
+    background-size: cover;
+    text-align: center;
+    padding-top: 75px;
+}
+.bd-p4 h1{
+    font-weight: bold;
+    color: #00ab81;
+}
+.bd-p4 h5{
+    font-weight: bold;
+}
+#input-email{
+    width: 400px;
+    height: 45px;
+    border-radius: 8px;
+    border: transparent;
+    outline: none;
+    padding-left: 20px;
+}
+#input-email:hover{
+    border: thin solid #00ab81;
+    outline: transparent;
+}
+.join-us{
+    display: inline;
+    
+}
+.privacy{
+    margin-top: 20px;
+    font-size: 0.85rem;
+}
+.btn-link{
+    color: #00ab81;
+}
+.btn-link:hover{
+    color: #00ab81;
+}
+.bd-p5{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.bd-p5 a{
+    color: #000;
+    font-size: 3rem;
+    font-weight: 600;
+    
+}
+.bd-p5 a:hover{
+    text-decoration: none;
+    color: #00ab84;
+    transition: all 0.5s;
+
+}
+.bd-p6-der-1-link img{
+    position: relative;
+}
+.bd-p6-der-1-link{
+    
+margin-bottom: 150px;
+}
+.bd-p6-content{
+    position: absolute;
+    text-align: center;
+    padding-top: 15px;
+    bottom: 70px;
+    right: 50px;
+    left: 50px;
+    background: white;
+    
+    border-radius: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.bd-p6-content:hover{
+    padding-top: 25px;
+    right: 30px;
+    left: 30px;
+    bottom: 70px;
+    transition: all 0.4s linear;
+
+}
+.bd-p6-content a{
+    color: #00ab84;
+    font-weight: bold;
+}
+.bd-p6-content a:hover{
+   text-decoration: none;
+   color: #191919;
+
+}
+.bd6-img{
+    position: relative;
+}
+.bd-img-img{
+    /* padding: 0; */
+}
+
+
+footer{
+    margin-top: 100px;
+}
+.ft-email-inputf{
+    display: inline-block;
+    
+}
+footer .footer-bar{
+    padding: 30px;
+    background-color: #00ab84;
+    height: 100px;
+    width: auto;
+    
+}
+.ft-ip-form{
+    height: 100px;
+    width: 100px;
+
+}
+.ft-email-inputf{
+    
+    border-radius: 10px;
+    background: #fff;
+}
+
+.ft-email-inputf input{
+    border: transparent;
+    height: 50px;
+    width: 300px;
+    outline: none;
+    padding-left: 10px;
+    /* border-radius: 5px; */
+    
+}
+.ft-email-inputf input:hover{
+    border: transparent;
+    height: 50px;
+    width: 300px;
+}
+.ft-email-inputf button{
+    border: transparent;
+    height: 50px;
+    width: 70px;
+    color: #ffffff;
+    background: #000000;
+    /* border-radius: 5px; */
+}
+.ft-email-inputf button:hover{
+    background: #027e62;
+}
+
+.footer-bar span{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 50px;
+}
+.ft-social-icon{
+    font-size: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.ft-social-icon:hover{
+   
+    color: #000;
+    
+}
+.text h5{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.text h6{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+}
+.ft-link a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+}
+.ft-contact{
+    background: #e6f7f3;
+    padding-top: 100px;
+    padding-left: 30px;
+    
+}
+.ft-logo{
+    background: #e6f7f3;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.delivery-in i{
+    display: inline-block;
+    color: #027e62;
+    font-size: 3.5rem;
+    
+   overflow: auto;
+}
+.delivery{
+    margin-top: 30px;
+}
+.delivery-in{
+    
+    text-decoration: none;
+}
+.delivery-in h6{
+    color: #000000;
+}
+.delivery-in:hover{
+    text-decoration: none;
+}
+.delivery-in b:hover{
+    color: #027e62;
+
+}
